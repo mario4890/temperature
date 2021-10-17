@@ -1,0 +1,11 @@
+.navbar {
+    &__container {
+        @include padding(16px, 16px, 16px, 16px);
+        @include bg($light-blue);
+
+        h1 {
+            margin: unset;
+            padding: unset;
+        }
+    }
+}
